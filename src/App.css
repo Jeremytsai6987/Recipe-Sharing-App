@@ -1,0 +1,81 @@
+/* General Styles */
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Content Layout */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Section Styles */
+section {
+  flex: 1;
+  margin: 10px;
+}
+
+/* Recipe List Styles */
+.recipe-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-list li {
+  background: #f8f8f8;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.recipe-list li:hover {
+  background: #e0e0e0;
+}
+
+/* Recipe Detail Styles */
+.recipe-detail {
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+/* Form Styles */
+.add-recipe-form form div {
+  margin-bottom: 15px;
+}
+
+.add-recipe-form label {
+  font-weight: bold;
+}
+
+.add-recipe-form input,
+.add-recipe-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.add-recipe-form button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-recipe-form button:hover {
+  background-color: #e55a4f;
+}
+
+/* Heading Styles */
+h2 {
+  color: #ff6f61;
+}
